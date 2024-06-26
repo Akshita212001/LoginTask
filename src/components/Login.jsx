@@ -40,7 +40,7 @@ const Login = () => {
     formData.append('password', password);
 
     try {
-      const response = await axios.post('http://liveload-api.vercel.app/api/v1/login', formData, {
+      const response = await axios.post('https://liveload-api.vercel.app/api/v1/login', formData, {
         headers: {
           'Content-Type': 'multipart/form-data'
         }
