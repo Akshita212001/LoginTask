@@ -1,0 +1,77 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/src/Banner.webp');
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.highlight {
+  box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+.form-box {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px; /* Adjust this value to change the width of the input boxes */
+  border: 1px solid #ddd; /* Added border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added box shadow */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #fff;
+  padding: 20px; /* White background for better contrast */
+}
+
+.form-check-label {
+  margin: 5px;
+}
+
+.form-check-input {
+  width: 20px;
+}
+
+.form-label {
+  margin-top: 20px;
+}
+
+.logo {
+  height: 100px;
+  width: 200px;
+  margin-bottom: 500px;
+  margin-left: -500px;
+  background-color: #F9F9F9;
+}
+
+/* .errortext {
+  margin-top: 5px;
+} */
+
+.alert {
+  margin-bottom: 20px;
+}
+
+
+.container .errortext{
+  color:'red';
+  margin: 8px 0 2px 0;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.form-container .forgot-password{
+    text-align: right;
+    margin-bottom: 15px;
+    color:'black';
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 2px;
+}
+
